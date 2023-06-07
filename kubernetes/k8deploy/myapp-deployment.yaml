@@ -12,7 +12,6 @@ spec:
       labels:
         app: webapp
     spec:
-      type: LoadBalancer
       containers:
       - name: dockerassignkubapp
         image: camfelix/dockerassignkub:v1
